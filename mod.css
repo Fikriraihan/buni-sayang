@@ -107,6 +107,7 @@ body {
   font-weight: 500;
   text-decoration: underline;
   color: black;
+  background-color: red;
 }
 .coretan {
   background-color: black;
@@ -193,7 +194,7 @@ body {
 }
 .birthday_text {
   color: white;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: 500;
   font-family: "Helvetica Neue", "Helvetica";
   text-align: center;

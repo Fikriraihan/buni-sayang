@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.canva {
+  position: relative;
+  z-index: 10;
+}
+.container {
+  position: relative;
+  z-index: 999999;
+}
+.neontext {
+  color: white;
+}

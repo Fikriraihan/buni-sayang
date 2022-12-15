@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+}
+
+.img_bg {
+  background-image: url(./assets/200.webp);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+.img_bg2 {
+  background-image: url(./assets/beautiful-flying-colorful-balloons-happy-birthday-watercolor-background_1035-20642.webp);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overflow {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.btn-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+.btn-position2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  margin-top: 5vw;
+}
+.btn {
+  width: 12rem;
+  height: 4rem;
+}
+.typography {
+  font-size: 2vw;
+  font-weight: 500;
+  text-decoration: underline;
+  color: white;
+}
+/* Container holding the image and the text */
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image_size {
+  width: 50vw;
+}
+.typography2 {
+  margin-top: -45vw;
+  font-size: 2vw;
+  font-weight: 500;
+  text-decoration: underline;
+  color: black;
+}
+.coretan {
+  background-color: black;
+  width: 5.5vw;
+  height: 3vw;
+  z-index: 1000;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+.nama {
+  position: absolute;
+  top: 67%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.nama_dea {
+  color: black;
+  font-size: 5.5vw;
+  font-weight: bold;
+}
+.red-bg {
+  height: 43vw;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-bg {
+  height: 43vw;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green-bg {
+  height: 43vw;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellow-bg {
+  height: 43vw;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purple-bg {
+  height: 43vw;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.envelope-img {
+  width: 14.3vw;
+}
+
+.birthday_container {
+  position: absolute;
+  top: 27%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.birthday_title {
+  color: white;
+  font-size: 8vw;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Helvetica";
+  text-align: center;
+}
+.birthday_text {
+  color: white;
+  font-size: 1.4vw;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Helvetica";
+  text-align: center;
+}
+.ucapan_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+}
+.birthday_title_container {
+  position: absolute;
+  top: 33%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  width: 52%;
+}
+.birthday_text_container {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 43%;
+}
+.birthday-bg {
+  background-image: url("./assets/birthday-frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
